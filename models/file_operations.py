@@ -7,13 +7,13 @@ class FileOperations:
 
     def read_csv(self):
         if not path.exists(self.__filename_csv):
-            return "ERROR! File does not exist! You have not created any notes yet.\n"
+            return "ERROR! File does not exist! You have not created any notes yet."
 
         __rows = []
 
         with open(self.__filename_csv, encoding="utf-8") as f_reader:
             if path.getsize(self.__filename_csv) == 0:
-                return "File is empty!\n"
+                return "File is empty!"
 
             file_reader = csv.reader(f_reader, delimiter=";")
 

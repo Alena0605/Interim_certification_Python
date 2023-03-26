@@ -19,12 +19,12 @@ class NoteOperations:
 
         if not data[1]:
             print()
-            return "You interrupted the creating of note.\n"
+            return "You interrupted the creating of note."
 
         note = Note(new_index, data[0], data[1], data[2])
         self.__fo.save_csv(note)
 
-        return "Note created!\n"
+        return "Note created!"
 
     def update_note(self):
         answer = self.__fo.read_csv()
@@ -59,12 +59,12 @@ class NoteOperations:
                         text = ex.check_text("Add new description")
                         if not text:
                             print()
-                            return "You interrupted the changing of note.\n"
+                            return "You interrupted the changing of note."
                         note_for_change.set_date()
                         note_for_change.set_text(text)
                     elif param == 0:
                         print()
-                        return "You interrupted the changing of note.\n"
+                        return "You interrupted the changing of note."
                     else:
                         print("=" * 50)
                         print("Incorrect input! Please, choose something from the list!")
@@ -75,7 +75,7 @@ class NoteOperations:
                                          note_for_change.get_title(), note_for_change.get_text()])
                     self.__fo.rewriter_csv(accep)
 
-                    return "Note changed.\n"
+                    return "Note changed."
             else:
                 return accep
 
@@ -97,7 +97,7 @@ class NoteOperations:
 
             if type(accep) is list:
                 self.__fo.rewriter_csv(accep)
-                return "Note deleted.\n"
+                return "Note deleted."
             else:
                 return accep
 
