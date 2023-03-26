@@ -1,0 +1,46 @@
+2023-03-26 Sunday 23:33:  Operation: 4. Show all notes  ->  Result: ERROR! File does not exist! You have not created any notes yet.
+2023-03-26 Sunday 23:33:  Operation: 3. Change / delete note -> 1. Change note by ID  ->  Result: ERROR! File does not exist! You have not created any notes yet.
+2023-03-26 Sunday 23:34:  Operation: 3. Change / delete note -> 2. Delete note by ID  ->  Result: ERROR! File does not exist! You have not created any notes yet.
+2023-03-26 Sunday 23:34:  Operation: 2. Search note -> 1. Searching by ID  ->  Result: ERROR! File does not exist! You have not created any notes yet.
+2023-03-26 Sunday 23:34:  Operation: 2. Search note -> 2. Searching by TITLE  ->  Result: ERROR! File does not exist! You have not created any notes yet.
+2023-03-26 Sunday 23:35:  Operation: 2. Search note -> 3. Searching by DATE  ->  Result: ERROR! File does not exist! You have not created any notes yet.
+2023-03-26 Sunday 23:36:  Operation: 2. Search note -> 3. Searching by DATE  ->  Result: ERROR! File does not exist! You have not created any notes yet.
+2023-03-26 Sunday 23:38:  Operation: 1. Add note  ->  Result: You interrupted the creating of note.
+2023-03-26 Sunday 23:39:  Operation: 1. Add note  ->  Result: Note created!
+2023-03-26 Sunday 23:40:  Operation: 4. Show all notes  ->  Result: Found 9 notes.
+2023-03-26 Sunday 23:41:  Operation: 3. Change / delete note -> 1. Change note by ID  ->  Result: Note changed.
+2023-03-26 Sunday 23:42:  Operation: 4. Show all notes  ->  Result: Found 9 notes.
+2023-03-26 Sunday 23:43:  Operation: 1. Add note  ->  Result: Note created!
+2023-03-26 Sunday 23:43:  Operation: 4. Show all notes  ->  Result: Found 10 notes.
+2023-03-26 Sunday 23:44:  Operation: 3. Change / delete note -> 1. Change note by ID  ->  Result: Note changed.
+2023-03-26 Sunday 23:44:  Operation: 4. Show all notes  ->  Result: Found 10 notes.
+2023-03-26 Sunday 23:45:  Operation: 3. Change / delete note -> 2. Delete note by ID  ->  Result: You refused to delete the note.
+2023-03-26 Sunday 23:46:  Operation: 3. Change / delete note -> 2. Delete note by ID  ->  Result: Note deleted.
+2023-03-26 Sunday 23:46:  Operation: 4. Show all notes  ->  Result: Found 9 notes.
+2023-03-26 Sunday 23:47:  Operation: 2. Search note -> 1. Searching by ID  ->  Result: Note found.
+2023-03-26 Sunday 23:47:  Operation: 2. Search note -> 2. Searching by TITLE  ->  Result: Found 2 notes.
+2023-03-26 Sunday 23:48:  Operation: 2. Search note -> 2. Searching by TITLE  ->  Result: Found 3 notes.
+2023-03-26 Sunday 23:48:  Operation: 2. Search note -> 2. Searching by TITLE  ->  Result: Note not found!
+2023-03-26 Sunday 23:49:  Operation: 2. Search note -> 3. Searching by DATE  ->  Result: Note not found!
+2023-03-26 Sunday 23:49:  Operation: 2. Search note -> 3. Searching by DATE  ->  Result: Found 3 notes.
+2023-03-26 Sunday 23:49:  Operation: 4. Show all notes  ->  Result: Found 9 notes.
+2023-03-26 Sunday 23:50:  Operation: 2. Search note -> 3. Searching by DATE  ->  Result: Found 5 notes.
+2023-03-26 Sunday 23:50:  Operation: 2. Search note -> 3. Searching by DATE  ->  Result: Note not found!
+2023-03-26 Sunday 23:53:  Operation: 2. Search note -> 1. Searching by ID  ->  Result: Note found.
+2023-03-26 Sunday 23:54:  Operation: 2. Search note -> 2. Searching by TITLE  ->  Result: Found 3 notes.
+2023-03-26 Sunday 23:54:  Operation: 2. Search note -> 3. Searching by DATE  ->  Result: Found 6 notes.
+2023-03-26 Sunday 23:54:  Operation: 2. Search note -> 3. Searching by DATE  ->  Result: Found 1 notes.
+2023-03-26 Sunday 23:56:  Operation: 1. Add note  ->  Result: Note created!
+2023-03-26 Sunday 23:56:  Operation: 4. Show all notes  ->  Result: Found 10 notes.
+2023-03-26 Sunday 23:57:  Operation: 3. Change / delete note -> 1. Change note by ID  ->  Result: Note changed.
+2023-03-26 Sunday 23:57:  Operation: 4. Show all notes  ->  Result: Found 10 notes.
+2023-03-26 Sunday 23:58:  Operation: 3. Change / delete note -> 1. Change note by ID  ->  Result: You refused to change the note.
+2023-03-26 Sunday 23:58:  Operation: 3. Change / delete note -> 2. Delete note by ID  ->  Result: Note deleted.
+2023-03-26 Sunday 23:58:  Operation: 4. Show all notes  ->  Result: Found 9 notes.
+2023-03-26 Sunday 23:59:  Operation: 3. Change / delete note -> 2. Delete note by ID  ->  Result: You refused to delete the note.
+2023-03-26 Sunday 23:59:  Operation: 2. Search note -> 1. Searching by ID  ->  Result: Note found.
+2023-03-26 Sunday 23:59:  Operation: 2. Search note -> 2. Searching by TITLE  ->  Result: Note not found!
+2023-03-26 Sunday 23:59:  Operation: 2. Search note -> 2. Searching by TITLE  ->  Result: Found 3 notes.
+2023-03-26 Sunday 23:59:  Operation: 2. Search note -> 2. Searching by TITLE  ->  Result: Found 3 notes.
+2023-03-27 Monday 00:00:  Operation: 2. Search note -> 3. Searching by DATE  ->  Result: Found 2 notes.
+2023-03-27 Monday 00:00:  Operation: 2. Search note -> 3. Searching by DATE  ->  Result: Found 3 notes.
