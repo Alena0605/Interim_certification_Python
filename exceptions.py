@@ -14,7 +14,7 @@ def check_title():
     if not title:
         title = "NO TITLE"
 
-    return title
+    return title.upper()
 
 
 def check_text(msg):
@@ -22,22 +22,23 @@ def check_text(msg):
         text = input(f"{msg} (enter 'q' to cancel): ")
         if text == 'q' or text == 'Q':
             text = ''
+            return text
         elif not text:
             print("The note can't be empty!")
-
-        return text
+        else:
+            return text
 
 
 def check_note(notes_list):
-    if type(notes_list) is list:
-        while True:
-            id = check_input("Enter the ID of the note")
+    while True:
+        id = check_input("Enter the ID of the note")
 
-            for note in notes_list:
-                if id == int(note[1]):
-                    return note
+        for note in notes_list:
+            if id == int(note[1]):
+                return note
 
-            print("ERROR! Note not found! Try again.")
+        print()
+        print("ERROR! Note not found! Try again.\n")
 
 
 def check_input(msg):
@@ -46,5 +47,21 @@ def check_input(msg):
             number = int(input(f"{msg}: "))
             return number
         except ValueError:
-            print('-' * 50)
+            print('=' * 50)
             print("Incorrect input! It's not a number!")
+            print('=' * 50)
+
+
+def check_chosen_note(notes_list, index, msg):
+    while True:
+        action = input(f"Enter 'yes' if you want to {msg} this note, or 'no' to refuse: ")
+        if action.isalpha() and action.lower() == 'yes':
+            notes_list.pop(index)
+            return notes_list
+        elif action.isalpha() and action.lower() == 'no':
+            print()
+            return f"You refused to {msg} the note.\n"
+        else:
+            print('=' * 50)
+            print("Incorrect input! Please, enter 'yes' or 'no'.")
+            print('=' * 50)
